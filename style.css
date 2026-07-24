@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+    font-family: 'Inter', sans-serif;
+    background: #ffffff;
+    color: #111827;
+    line-height: 1.6;
+
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+/*==========================
+        NAVBAR
+==========================*/
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 999;
+
+    border-bottom: 1px solid #ececec;
+
+    box-shadow: none;
+}
+
+nav {
+
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 134px;
+    /* Figma frame width */
+    height: auto;
+    display: block;
+}
+
+nav ul {
+
+    display: flex;
+    gap: 35px;
+
+}
+
+nav ul li a {
+
+    color: #444;
+    font-size: 15px;
+    transition: .3s;
+
+}
+
+nav ul li a:hover {
+
+    color: #2563eb;
+
+}
+
+.btn {
+
+    background: #2563eb;
+    color: #fff;
+    padding: 13px 28px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: .3s;
+
+}
+
+.btn:hover {
+
+    background: #1d4ed8;
+
+}
