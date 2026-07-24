@@ -37,9 +37,7 @@ ul {
     padding: 0 12px;
 }
 
-/*==========================
-        NAVBAR
-==========================*/
+
 
 header {
     position: fixed;
@@ -48,9 +46,7 @@ header {
     width: 100%;
     background: #fff;
     z-index: 999;
-
     border-bottom: 1px solid #ececec;
-
     box-shadow: none;
 }
 
@@ -76,14 +72,12 @@ nav {
 }
 
 nav ul {
-
     display: flex;
     gap: 35px;
 
 }
 
 nav ul li a {
-
     color: #444;
     font-size: 15px;
     transition: .3s;
@@ -91,13 +85,10 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-
     color: #2563eb;
-
 }
 
 .btn {
-
     background: #2563eb;
     color: #fff;
     padding: 13px 28px;
@@ -109,6 +100,73 @@ nav ul li a:hover {
 
 .btn:hover {
 
+    background: #1d4ed8;
+
+}
+
+.hero {
+
+    margin-top: 75px;
+    height: 92vh;
+    background: url("../assignemtn-1/assets/banner.jpg") center center/cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, .60);
+
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 760px;
+
+}
+
+.hero h1 {
+    color: #fff;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 25px;
+
+}
+
+.hero h1 span {
+    font-style: italic;
+
+}
+
+.hero p {
+
+    color: #ddd;
+    font-size: 18px;
+    margin-bottom: 45px;
+
+}
+
+.hero-btn {
+    display: inline-block;
+    background: #2563eb;
+    color: #fff;
+    padding: 17px 45px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .3s;
+
+}
+
+.hero-btn:hover {
+    transform: translateY(-5px);
     background: #1d4ed8;
 
 }
